@@ -27,7 +27,12 @@ const rotorWiring = {
 };
 
 class Rotor {
-  constructor() {
-
+  constructor(romanId) {
+    const rw = rotorWiring[romanId];
+    this.wiring = rw.wiring;
+    this.notch = rw.notch;
+    this.turnover = rw.turnover;
   }
 }
+
+module.exports = Rotor;
