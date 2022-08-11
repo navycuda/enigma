@@ -1,0 +1,23 @@
+{
+  "name": "enigma",
+  "version": "1.0.0",
+  "description": "enigma simulator",
+  "main": "enigma.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/navycuda/enigma.git"
+  },
+  "author": "navycuda",
+  "license": "ISC",
+  "dependencies": {
+    "@navycuda/lotide": "^1.0.3",
+    "chai": "^4.3.6",
+    "mocha": "^10.0.0"
+  }
+}
