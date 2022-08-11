@@ -1,4 +1,4 @@
-const cipherChars = 'ABCDEFGHIJKLMNOPQRSTUV';
+const cipherChars = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
 
 
 module.exports = {
