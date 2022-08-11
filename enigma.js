@@ -1,4 +1,5 @@
 /* Require */
+const etw = require('./modules/etw');
 /* Tcp:Http */
 /* Middleware */
 /* Arguments & Properties */
@@ -16,4 +17,5 @@
 ///* Add */
 ///* Delete */
 /* Execution & Test Data */
+console.log(etw.cipherChars);
 /* Exports */
